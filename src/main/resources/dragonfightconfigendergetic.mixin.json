@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.github.jodlodi.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "mixins": [
+    "EndergeticDragonFightManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "dragonfightconfigendergetic.mixin-refmap.json"
+}

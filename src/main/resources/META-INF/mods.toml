@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+[[mods]]
+modId="dragonfightconfigendergetic"
+version="${file.jarVersion}"
+displayName="Dragon Fight Config"
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+logoFile="dragonfightconfigendergetic.png"
+credits=""
+authors="jodlodi"
+description='''
+Makes Dragon Fight Config compatible with Endergetic.
+'''
+
+[[dependencies.dragonfightconfigendergetic]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dragonfightconfigendergetic]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dragonfightconfigendergetic]]
+    modId="dragonfightconfig"
+    mandatory=true
+    versionRange="[1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dragonfightconfigendergetic]]
+    modId="endergetic"
+    mandatory=true
+    versionRange="[3.0,)"
+    ordering="NONE"
+    side="BOTH"
